@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A8231EE7F1CF9DCCC51C047E1B1A85F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1F59153077A01F1A0FC6D6C74EBC7566 /* Pods-JHChangefont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 310D982D8018BFFA1D998D97EC9DD2FC /* Pods-JHChangefont_Example-dummy.m */; };
+		2CFB2DB703AA4A48239911181FAC66F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		387D06186DECDF5507B76737ECFE6769 /* JHChangefont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B663887741158E1A8D2223B379973087 /* JHChangefont-dummy.m */; };
+		74FCF29329400960B81174A1C7CE14E2 /* Pods-JHChangefont_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A5F854487103B360BEAB6067D58F35 /* Pods-JHChangefont_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCF60B93005EC4AB1F3589460FE7FFB1 /* JHChangefont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF07C277FA4712A91055D4B981705336 /* JHChangefont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D179AB221FFF66B900108C51 /* UITextField+ChangeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D179AB181FFF66B900108C51 /* UITextField+ChangeFont.m */; };
+		D179AB231FFF66B900108C51 /* UIButton+ChangeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D179AB191FFF66B900108C51 /* UIButton+ChangeFont.h */; };
+		D179AB241FFF66B900108C51 /* UIFont+ChangeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D179AB1A1FFF66B900108C51 /* UIFont+ChangeFont.h */; };
+		D179AB251FFF66B900108C51 /* UIFont+ChangeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D179AB1B1FFF66B900108C51 /* UIFont+ChangeFont.m */; };
+		D179AB261FFF66B900108C51 /* UILabel+ChangeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D179AB1C1FFF66B900108C51 /* UILabel+ChangeFont.m */; };
+		D179AB271FFF66B900108C51 /* UITextView+ChangeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D179AB1D1FFF66B900108C51 /* UITextView+ChangeFont.h */; };
+		D179AB281FFF66B900108C51 /* UITextView+ChangeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D179AB1E1FFF66B900108C51 /* UITextView+ChangeFont.m */; };
+		D179AB291FFF66B900108C51 /* UIButton+ChangeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D179AB1F1FFF66B900108C51 /* UIButton+ChangeFont.m */; };
+		D179AB2A1FFF66B900108C51 /* UILabel+ChangeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D179AB201FFF66B900108C51 /* UILabel+ChangeFont.h */; };
+		D179AB2B1FFF66B900108C51 /* UITextField+ChangeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = D179AB211FFF66B900108C51 /* UITextField+ChangeFont.h */; };
+		E1881BDBA8F3936A3755CA5F38CDF34B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E88F32681E13C63F5A315F0E6806CB0F /* Pods-JHChangefont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D033A51336B2248127B5A54CABCF915 /* Pods-JHChangefont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F602BC5A1C19DA85A89FBDDD02CCD8E3 /* Pods-JHChangefont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2039E476DD898E2078B3FA916791AE0E /* Pods-JHChangefont_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C88714EE5ACB879B5F7B06C78F0C5CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CD1F888DEAF8C34F5F919C46E0FF621;
+			remoteInfo = JHChangefont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062A9550BB59E658D98A2E7510E442A5 /* Pods-JHChangefont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JHChangefont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15945A4A8487875DC9351A26B1AC52A5 /* Pods-JHChangefont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHChangefont_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2039E476DD898E2078B3FA916791AE0E /* Pods-JHChangefont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JHChangefont_Tests-dummy.m"; sourceTree = "<group>"; };
+		2094F476DBB5B929167AE501ABFA6364 /* Pods_JHChangefont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHChangefont_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		246FBE057946C4B06C65BA2F0F5FA614 /* Pods-JHChangefont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHChangefont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2EF44B72D15E02706737B2CC26ECE10D /* JHChangefont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JHChangefont.xcconfig; sourceTree = "<group>"; };
+		303571C615B5192E60C41A49223E000F /* Pods-JHChangefont_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHChangefont_Example-resources.sh"; sourceTree = "<group>"; };
+		310D982D8018BFFA1D998D97EC9DD2FC /* Pods-JHChangefont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JHChangefont_Example-dummy.m"; sourceTree = "<group>"; };
+		391C773C077B0686479F6D48A71DF018 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C373167667246D3E3663A6DDFC30B9 /* Pods-JHChangefont_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHChangefont_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4B6083CECC3A287F0885A86E4E5FB36D /* JHChangefont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHChangefont-prefix.pch"; sourceTree = "<group>"; };
+		58581B96675499BD1702096815AB40C7 /* Pods-JHChangefont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHChangefont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		61A5F854487103B360BEAB6067D58F35 /* Pods-JHChangefont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JHChangefont_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7427C34EB2D50EEB962591FDAA0FA35A /* Pods-JHChangefont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHChangefont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7BB833317971BAAFD8E8510278D41870 /* Pods-JHChangefont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JHChangefont_Tests.modulemap"; sourceTree = "<group>"; };
+		82C4212D3CA67D402142E0C2671F24DA /* JHChangefont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JHChangefont.modulemap; sourceTree = "<group>"; };
+		8CEF13D7A9F5458DFCC42866125D162A /* JHChangefont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JHChangefont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D033A51336B2248127B5A54CABCF915 /* Pods-JHChangefont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JHChangefont_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CE3F682AE533A89CD212D46B5283B60 /* Pods_JHChangefont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHChangefont_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D03C242F0E091E1ED2B5805427AEA7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86BD97C017F711D70157895C43D6D4A /* Pods-JHChangefont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JHChangefont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A91A5E621BF835A6D5E96E98B1B7B4FD /* Pods-JHChangefont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JHChangefont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B663887741158E1A8D2223B379973087 /* JHChangefont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JHChangefont-dummy.m"; sourceTree = "<group>"; };
+		B9FFF8AFE493F99E438DCB61E2E9E0DF /* Pods-JHChangefont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHChangefont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C1CBE3EE835A8494EAC094A9E5CD60F9 /* Pods-JHChangefont_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHChangefont_Tests-resources.sh"; sourceTree = "<group>"; };
+		CF7DD783DDAE389D824D24AD758F8F00 /* Pods-JHChangefont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JHChangefont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D179AB181FFF66B900108C51 /* UITextField+ChangeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+ChangeFont.m"; path = "JHChangefont/Classes/UITextField+ChangeFont.m"; sourceTree = "<group>"; };
+		D179AB191FFF66B900108C51 /* UIButton+ChangeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+ChangeFont.h"; path = "JHChangefont/Classes/UIButton+ChangeFont.h"; sourceTree = "<group>"; };
+		D179AB1A1FFF66B900108C51 /* UIFont+ChangeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+ChangeFont.h"; path = "JHChangefont/Classes/UIFont+ChangeFont.h"; sourceTree = "<group>"; };
+		D179AB1B1FFF66B900108C51 /* UIFont+ChangeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+ChangeFont.m"; path = "JHChangefont/Classes/UIFont+ChangeFont.m"; sourceTree = "<group>"; };
+		D179AB1C1FFF66B900108C51 /* UILabel+ChangeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+ChangeFont.m"; path = "JHChangefont/Classes/UILabel+ChangeFont.m"; sourceTree = "<group>"; };
+		D179AB1D1FFF66B900108C51 /* UITextView+ChangeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextView+ChangeFont.h"; path = "JHChangefont/Classes/UITextView+ChangeFont.h"; sourceTree = "<group>"; };
+		D179AB1E1FFF66B900108C51 /* UITextView+ChangeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextView+ChangeFont.m"; path = "JHChangefont/Classes/UITextView+ChangeFont.m"; sourceTree = "<group>"; };
+		D179AB1F1FFF66B900108C51 /* UIButton+ChangeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+ChangeFont.m"; path = "JHChangefont/Classes/UIButton+ChangeFont.m"; sourceTree = "<group>"; };
+		D179AB201FFF66B900108C51 /* UILabel+ChangeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+ChangeFont.h"; path = "JHChangefont/Classes/UILabel+ChangeFont.h"; sourceTree = "<group>"; };
+		D179AB211FFF66B900108C51 /* UITextField+ChangeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+ChangeFont.h"; path = "JHChangefont/Classes/UITextField+ChangeFont.h"; sourceTree = "<group>"; };
+		DD391EC40CA51FC2BD2127D3F1655E44 /* Pods-JHChangefont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JHChangefont_Example.modulemap"; sourceTree = "<group>"; };
+		F243E276919FFF0773692B64A50CBF3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF07C277FA4712A91055D4B981705336 /* JHChangefont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHChangefont-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782FCFC82B3D1660CF8F1085197727F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFB2DB703AA4A48239911181FAC66F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFF6E98D29586DE77DF661C37402FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8231EE7F1CF9DCCC51C047E1B1A85F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97505735B22DC28EE3B7212452BDBA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1881BDBA8F3936A3755CA5F38CDF34B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		384C1F69B1E067588D9E04575C45A214 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F7F1F5920EC1C225D3440C1F3561938 /* Pods-JHChangefont_Example */,
+				3AE1554D5D6C3D1E936E7818896439E6 /* Pods-JHChangefont_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3AE1554D5D6C3D1E936E7818896439E6 /* Pods-JHChangefont_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				391C773C077B0686479F6D48A71DF018 /* Info.plist */,
+				7BB833317971BAAFD8E8510278D41870 /* Pods-JHChangefont_Tests.modulemap */,
+				062A9550BB59E658D98A2E7510E442A5 /* Pods-JHChangefont_Tests-acknowledgements.markdown */,
+				A86BD97C017F711D70157895C43D6D4A /* Pods-JHChangefont_Tests-acknowledgements.plist */,
+				2039E476DD898E2078B3FA916791AE0E /* Pods-JHChangefont_Tests-dummy.m */,
+				42C373167667246D3E3663A6DDFC30B9 /* Pods-JHChangefont_Tests-frameworks.sh */,
+				C1CBE3EE835A8494EAC094A9E5CD60F9 /* Pods-JHChangefont_Tests-resources.sh */,
+				61A5F854487103B360BEAB6067D58F35 /* Pods-JHChangefont_Tests-umbrella.h */,
+				58581B96675499BD1702096815AB40C7 /* Pods-JHChangefont_Tests.debug.xcconfig */,
+				15945A4A8487875DC9351A26B1AC52A5 /* Pods-JHChangefont_Tests.release.xcconfig */,
+			);
+			name = "Pods-JHChangefont_Tests";
+			path = "Target Support Files/Pods-JHChangefont_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A17FC0121C0EBE2038C30E3083873055 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EA83AD5103CDE8393C9A2D9DCF0E30A0 /* Products */,
+				384C1F69B1E067588D9E04575C45A214 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F7F1F5920EC1C225D3440C1F3561938 /* Pods-JHChangefont_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F243E276919FFF0773692B64A50CBF3F /* Info.plist */,
+				DD391EC40CA51FC2BD2127D3F1655E44 /* Pods-JHChangefont_Example.modulemap */,
+				CF7DD783DDAE389D824D24AD758F8F00 /* Pods-JHChangefont_Example-acknowledgements.markdown */,
+				A91A5E621BF835A6D5E96E98B1B7B4FD /* Pods-JHChangefont_Example-acknowledgements.plist */,
+				310D982D8018BFFA1D998D97EC9DD2FC /* Pods-JHChangefont_Example-dummy.m */,
+				7427C34EB2D50EEB962591FDAA0FA35A /* Pods-JHChangefont_Example-frameworks.sh */,
+				303571C615B5192E60C41A49223E000F /* Pods-JHChangefont_Example-resources.sh */,
+				8D033A51336B2248127B5A54CABCF915 /* Pods-JHChangefont_Example-umbrella.h */,
+				B9FFF8AFE493F99E438DCB61E2E9E0DF /* Pods-JHChangefont_Example.debug.xcconfig */,
+				246FBE057946C4B06C65BA2F0F5FA614 /* Pods-JHChangefont_Example.release.xcconfig */,
+			);
+			name = "Pods-JHChangefont_Example";
+			path = "Target Support Files/Pods-JHChangefont_Example";
+			sourceTree = "<group>";
+		};
+		A17FC0121C0EBE2038C30E3083873055 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5D28564F7C11C0C70490127E82061B1 /* JHChangefont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5D28564F7C11C0C70490127E82061B1 /* JHChangefont */ = {
+			isa = PBXGroup;
+			children = (
+				D179AB191FFF66B900108C51 /* UIButton+ChangeFont.h */,
+				D179AB1F1FFF66B900108C51 /* UIButton+ChangeFont.m */,
+				D179AB1A1FFF66B900108C51 /* UIFont+ChangeFont.h */,
+				D179AB1B1FFF66B900108C51 /* UIFont+ChangeFont.m */,
+				D179AB201FFF66B900108C51 /* UILabel+ChangeFont.h */,
+				D179AB1C1FFF66B900108C51 /* UILabel+ChangeFont.m */,
+				D179AB211FFF66B900108C51 /* UITextField+ChangeFont.h */,
+				D179AB181FFF66B900108C51 /* UITextField+ChangeFont.m */,
+				D179AB1D1FFF66B900108C51 /* UITextView+ChangeFont.h */,
+				D179AB1E1FFF66B900108C51 /* UITextView+ChangeFont.m */,
+				CFDC975E99971D3397ECCE51A374B966 /* Support Files */,
+			);
+			name = JHChangefont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFDC975E99971D3397ECCE51A374B966 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D03C242F0E091E1ED2B5805427AEA7D /* Info.plist */,
+				82C4212D3CA67D402142E0C2671F24DA /* JHChangefont.modulemap */,
+				2EF44B72D15E02706737B2CC26ECE10D /* JHChangefont.xcconfig */,
+				B663887741158E1A8D2223B379973087 /* JHChangefont-dummy.m */,
+				4B6083CECC3A287F0885A86E4E5FB36D /* JHChangefont-prefix.pch */,
+				FF07C277FA4712A91055D4B981705336 /* JHChangefont-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JHChangefont";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA83AD5103CDE8393C9A2D9DCF0E30A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CEF13D7A9F5458DFCC42866125D162A /* JHChangefont.framework */,
+				2094F476DBB5B929167AE501ABFA6364 /* Pods_JHChangefont_Example.framework */,
+				9CE3F682AE533A89CD212D46B5283B60 /* Pods_JHChangefont_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CF31D1E2687C7139A950FA81334F214 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FCF29329400960B81174A1C7CE14E2 /* Pods-JHChangefont_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0F7D291B8A7744703130BE9D5C5F32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF60B93005EC4AB1F3589460FE7FFB1 /* JHChangefont-umbrella.h in Headers */,
+				D179AB2B1FFF66B900108C51 /* UITextField+ChangeFont.h in Headers */,
+				D179AB241FFF66B900108C51 /* UIFont+ChangeFont.h in Headers */,
+				D179AB2A1FFF66B900108C51 /* UILabel+ChangeFont.h in Headers */,
+				D179AB231FFF66B900108C51 /* UIButton+ChangeFont.h in Headers */,
+				D179AB271FFF66B900108C51 /* UITextView+ChangeFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5106D7B5EEEED9E65C72F41BD0B11BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88F32681E13C63F5A315F0E6806CB0F /* Pods-JHChangefont_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F5C68FFD5E6E8873DFAA2B603C4400A /* Pods-JHChangefont_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8728AAF502AFD5E951C90CA2A8688A1C /* Build configuration list for PBXNativeTarget "Pods-JHChangefont_Tests" */;
+			buildPhases = (
+				19F44EC5E36E71F7F7455DC14E1DDCF9 /* Sources */,
+				782FCFC82B3D1660CF8F1085197727F0 /* Frameworks */,
+				3CF31D1E2687C7139A950FA81334F214 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JHChangefont_Tests";
+			productName = "Pods-JHChangefont_Tests";
+			productReference = 9CE3F682AE533A89CD212D46B5283B60 /* Pods_JHChangefont_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CD1F888DEAF8C34F5F919C46E0FF621 /* JHChangefont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E6A2E5136DBC96C261BF1C0260C087 /* Build configuration list for PBXNativeTarget "JHChangefont" */;
+			buildPhases = (
+				E831BA51FCA41CC8F82877ACB198BF9D /* Sources */,
+				CCFF6E98D29586DE77DF661C37402FF2 /* Frameworks */,
+				AA0F7D291B8A7744703130BE9D5C5F32 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHChangefont;
+			productName = JHChangefont;
+			productReference = 8CEF13D7A9F5458DFCC42866125D162A /* JHChangefont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F6CA49A32117BB035CB762D6A6E80DF /* Pods-JHChangefont_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C8D25F3893A78188EC5250CCF66FEB6 /* Build configuration list for PBXNativeTarget "Pods-JHChangefont_Example" */;
+			buildPhases = (
+				B2E6A37C317ECB435AA552D84826969F /* Sources */,
+				D97505735B22DC28EE3B7212452BDBA0 /* Frameworks */,
+				E5106D7B5EEEED9E65C72F41BD0B11BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51FFBD1F40FDCDCE7CCF2C875B0FC8E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-JHChangefont_Example";
+			productName = "Pods-JHChangefont_Example";
+			productReference = 2094F476DBB5B929167AE501ABFA6364 /* Pods_JHChangefont_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EA83AD5103CDE8393C9A2D9DCF0E30A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD1F888DEAF8C34F5F919C46E0FF621 /* JHChangefont */,
+				7F6CA49A32117BB035CB762D6A6E80DF /* Pods-JHChangefont_Example */,
+				3F5C68FFD5E6E8873DFAA2B603C4400A /* Pods-JHChangefont_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19F44EC5E36E71F7F7455DC14E1DDCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F602BC5A1C19DA85A89FBDDD02CCD8E3 /* Pods-JHChangefont_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E6A37C317ECB435AA552D84826969F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F59153077A01F1A0FC6D6C74EBC7566 /* Pods-JHChangefont_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E831BA51FCA41CC8F82877ACB198BF9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387D06186DECDF5507B76737ECFE6769 /* JHChangefont-dummy.m in Sources */,
+				D179AB281FFF66B900108C51 /* UITextView+ChangeFont.m in Sources */,
+				D179AB261FFF66B900108C51 /* UILabel+ChangeFont.m in Sources */,
+				D179AB221FFF66B900108C51 /* UITextField+ChangeFont.m in Sources */,
+				D179AB251FFF66B900108C51 /* UIFont+ChangeFont.m in Sources */,
+				D179AB291FFF66B900108C51 /* UIButton+ChangeFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51FFBD1F40FDCDCE7CCF2C875B0FC8E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JHChangefont;
+			target = 5CD1F888DEAF8C34F5F919C46E0FF621 /* JHChangefont */;
+			targetProxy = C88714EE5ACB879B5F7B06C78F0C5CEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17302AB2A76B99848CBEBCEFD3EA8E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246FBE057946C4B06C65BA2F0F5FA614 /* Pods-JHChangefont_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JHChangefont_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JHChangefont_Example/Pods-JHChangefont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JHChangefont_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		359CBAA3954CB61A5573D65DB4860A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FFF8AFE493F99E438DCB61E2E9E0DF /* Pods-JHChangefont_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JHChangefont_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JHChangefont_Example/Pods-JHChangefont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JHChangefont_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		402045D7E9C3DC68B7AF5BECB22C3020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58581B96675499BD1702096815AB40C7 /* Pods-JHChangefont_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JHChangefont_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JHChangefont_Tests/Pods-JHChangefont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JHChangefont_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8C7AA66ADADD8275965206D01EDB8B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15945A4A8487875DC9351A26B1AC52A5 /* Pods-JHChangefont_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JHChangefont_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JHChangefont_Tests/Pods-JHChangefont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JHChangefont_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF8D60F11F20F07D2B56DC2E52F457D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF44B72D15E02706737B2CC26ECE10D /* JHChangefont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JHChangefont/JHChangefont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JHChangefont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JHChangefont/JHChangefont.modulemap";
+				PRODUCT_NAME = JHChangefont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8C3AE54504731503552298D9A6FEBB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF44B72D15E02706737B2CC26ECE10D /* JHChangefont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JHChangefont/JHChangefont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JHChangefont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JHChangefont/JHChangefont.modulemap";
+				PRODUCT_NAME = JHChangefont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C8D25F3893A78188EC5250CCF66FEB6 /* Build configuration list for PBXNativeTarget "Pods-JHChangefont_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				359CBAA3954CB61A5573D65DB4860A8C /* Debug */,
+				17302AB2A76B99848CBEBCEFD3EA8E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8728AAF502AFD5E951C90CA2A8688A1C /* Build configuration list for PBXNativeTarget "Pods-JHChangefont_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402045D7E9C3DC68B7AF5BECB22C3020 /* Debug */,
+				8C7AA66ADADD8275965206D01EDB8B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E6A2E5136DBC96C261BF1C0260C087 /* Build configuration list for PBXNativeTarget "JHChangefont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8D60F11F20F07D2B56DC2E52F457D3 /* Debug */,
+				B8C3AE54504731503552298D9A6FEBB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

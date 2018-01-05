@@ -1,0 +1,6 @@
+framework module JHChangefont {
+  umbrella header "JHChangefont-umbrella.h"
+
+  export *
+  module * { export * }
+}
