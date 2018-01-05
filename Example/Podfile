@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JHChangefont_Example' do
+  pod 'JHChangefont', :path => '../'
+
+  target 'JHChangefont_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
