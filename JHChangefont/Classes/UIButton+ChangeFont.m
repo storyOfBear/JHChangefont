@@ -14,6 +14,8 @@
 //只执行一次的方法，在这个地方 替换方法
 +(void)load{
     
+    
+    
     //方法交换只执行一次
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

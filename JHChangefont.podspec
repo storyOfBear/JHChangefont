@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/bearstory/JHChangefont'
+  s.homepage         = 'https://github.com/storyOfBear/JHChangefont'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bearstory' => 'guojiahui120@163.com' }
-  s.source           = { :git => 'https://github.com/bearstory/JHChangefont.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/storyOfBear/JHChangefont.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
